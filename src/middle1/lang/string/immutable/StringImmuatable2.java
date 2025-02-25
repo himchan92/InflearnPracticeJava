@@ -1,5 +1,8 @@
 package middle1.lang.string.immutable;
 
+/*
+    문자열 제공 API는 워낙 방대하기에 암기하지말고 그때그때 찾아 쓰는걸 권장(Feat. 강사님)
+ */
 public class StringImmuatable2 {
 
     public static void main(String[] args) {
