@@ -10,6 +10,8 @@ public class AnimalMain1 {
 
         Box<Dog> dogBox = new Box<>();
         dogBox.set(dog);
+
+
         Dog findDog = dogBox.get();
         System.out.println("findDog = " + findDog);
 
