@@ -5,7 +5,7 @@ import java.util.Stack;
 public class StackMain {
 
     public static void main(String[] args) {
-        //스택 : 나올땐 가장 마지막에 넣은게 먼저 나오기
+        //스택 : 나중에 넣은게 먼저 나옴
         Stack<Integer> stack = new Stack<>();
 
         stack.push(1);
