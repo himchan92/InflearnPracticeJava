@@ -1,0 +1,25 @@
+package cond;
+
+public class Swtich1 {
+
+  public static void main(String[] args) {
+    int grade = 2;
+
+    int coupon;
+    switch (grade) {
+      case 1:
+        coupon = 1000;
+        break;
+      case 2:
+        coupon = 2000;
+        break;
+      case 3:
+        coupon = 3000;
+        break;
+      default:
+        coupon = 500;
+        break; //조건만족시 탈출
+    }
+    System.out.println("발급 쿠폰 : " + coupon);
+  }
+}
